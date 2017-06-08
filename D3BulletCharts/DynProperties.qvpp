@@ -1,0 +1,97 @@
+<div class="ToolWindow-MainBody" avq="foldOutMenu:." style="overflow: visible !important; float: left;">
+	<div class="prop-accordion" avq="accordion:.">
+		<h3 class="prop-h3 accordion-shadow">
+			<a href="#">
+				D3 Bullet Charts
+			</a>
+		</h3>
+		<div class="prop-grid_container accordion-shadow-enabler" style="overflow:auto;">
+			<div class="prop-grid_clear prop-grid_top-vertical-spacer-12px prop-grid_last"></div>
+			
+	<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Title</div>
+	<div class='prop-grid_span-10 prop-grid_last'>
+		<div class='prop-grid_span-7' avq='prop_dynamicDropdown:.Chart.Dimension.0.Field'></div>
+		<div class='prop-width-28px' propicontype='tool' avq='prop_dlgbuttonjqui:.Chart.Dimension.0:ExtensionDimDialog.qvpp'></div>
+	</div><br />
+	<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>SubTitle</div>
+	<div class='prop-grid_span-10 prop-grid_last'>
+		<div class='prop-grid_span-7' avq='prop_dynamicDropdown:.Chart.Dimension.1.Field'></div>
+		<div class='prop-width-28px' propicontype='tool' avq='prop_dlgbuttonjqui:.Chart.Dimension.1:ExtensionDimDialog.qvpp'></div>
+	</div><br />
+	<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Range1</div>
+	<div class='prop-grid_span-10 prop-grid_last'>
+		<div class='prop-grid_span-7 prop-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Expression.0.0.Definition'></div>
+	</div><br />
+	<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Range2</div>
+	<div class='prop-grid_span-10 prop-grid_last'>
+		<div class='prop-grid_span-7 prop-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Expression.1.0.Definition'></div>
+	</div><br />
+	<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Range3</div>
+	<div class='prop-grid_span-10 prop-grid_last'>
+		<div class='prop-grid_span-7 prop-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Expression.2.0.Definition'></div>
+	</div><br />
+	<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Measure1</div>
+	<div class='prop-grid_span-10 prop-grid_last'>
+		<div class='prop-grid_span-7 prop-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Expression.3.0.Definition'></div>
+	</div><br />
+	<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Measure2</div>
+	<div class='prop-grid_span-10 prop-grid_last'>
+		<div class='prop-grid_span-7 prop-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Expression.4.0.Definition'></div>
+	</div><br />
+	<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Marker1</div>
+	<div class='prop-grid_span-10 prop-grid_last'>
+		<div class='prop-grid_span-7 prop-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Expression.5.0.Definition'></div>
+	</div><br />
+	<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Marker2</div>
+	<div class='prop-grid_span-10 prop-grid_last'>
+		<div class='prop-grid_span-7 prop-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Expression.6.0.Definition'></div>
+	</div><br />
+	<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>HTML</div>
+	<div class='prop-grid_span-10 prop-grid_last'>
+		<div class='prop-grid_span-7 prop-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Expression.7.0.Definition'></div>
+	</div><br />
+	<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Color Scheme</div>
+	<div class='prop-grid_span-10 prop-grid_last'>
+		<select style='width:;' avq='mySelect:.Chart.Text.0.Content'>
+			<option value='default'>Default Schema</option>
+			<option value='BuGn'>BuGn</option>
+			<option value='BuPn'>BuPn</option>
+			<option value='GnBu'>GnBu</option>
+			<option value='OrRd'>OrRd</option>
+			<option value='PuBu'>PuBu</option>
+			<option value='PuBUGn'>PuBUGn</option>
+			<option value='PuRd'>PuRd</option>
+			<option value='RdPu'>RdPu</option>
+			<option value='YlGn'>YlGn</option>
+			<option value='YlGnBu'>YlGnBu</option>
+			<option value='YlOrBr'>YlOrBr</option>
+			<option value='YlOrRd'>YlOrRd</option>
+			<option value='Blues'>Blues</option>
+			<option value='BluesLight'>BluesLight</option>
+			<option value='Greens'>Greens</option>
+			<option value='GreensLight'>GreensLight</option>
+			<option value='Oranges'>Oranges</option>
+			<option value='OrangesLight'>OrangesLight</option>
+			<option value='Purples'>Purples</option>
+			<option value='PurplesLight'>PurplesLight</option>
+			<option value='Reds'>Reds</option>
+			<option value='RedsLight'>RedsLight</option>
+		</select>
+	</div><br />
+
+		</div>
+		<h3 class="prop-h3 accordion-shadow" avq="activeAccordionHeader:.:GenericPresentationFoldout.qvpp">
+			<a href="#">Presentation</a>
+		</h3>
+		<div class="prop-grid_container accordion-shadow-enabler" avq="panel::Layout.qvpp"></div>
+		<h3 class="prop-h3 accordion-shadow" avq="activeAccordionHeader::PropertiesCaptionFoldout.qvpp">
+			<a href="#">Caption</a>
+		</h3>
+		<div class="prop-grid_container accordion-shadow-enabler" avq="panel::Caption.qvpp"></div>
+		<h3 class="prop-h3 accordion-shadow" avq="activeAccordionHeader:.:PropertiesOptionsFoldout.qvpp">
+			<a href="#">Options</a>
+		</h3>
+		<div class="prop-grid_container accordion-shadow-enabler" avq="panel::Options.qvpp"></div>
+	</div>
+	<span class="bottom-gap"></span>
+</div>

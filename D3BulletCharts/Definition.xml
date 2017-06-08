@@ -11,6 +11,7 @@
   <Initiate Name="Chart.Expression.4.0.Definition" Value="=Only([KPI - Measure 2])" />
   <Initiate Name="Chart.Expression.5.0.Definition" Value="=Only([KPI - Marker 1])" />
   <Initiate Name="Chart.Expression.6.0.Definition" Value="=Only([KPI - Marker 2])" />
+  <Initiate Name="Chart.Expression.7.0.Definition" Value="='HTML Text Here'" />
   <Initiate Name="Chart.Text.0.Content" Value="default" /> <!-- Color Schema-->
 
   <Initiate Name="Caption.Text" Value="D3 BulletCharts" />
@@ -36,6 +37,7 @@
   <Measurement Label="Measure2" TargetName="Measure 2" Initial="" />
   <Measurement Label="Marker1" TargetName="Marker 1" Initial="" />
   <Measurement Label="Marker2" TargetName="Marker 2" Initial="" />
+  <Measurement Label="HTML" TargetName="HTML" Initial="" />
 
   <Text Label="Color Scheme" Type="select" SelectLabel="Default Schema,BuGn,BuPn,GnBu,OrRd,PuBu,PuBUGn,PuRd,RdPu,YlGn,YlGnBu,YlOrBr,YlOrRd,Blues,BluesLight,Greens,GreensLight,Oranges,OrangesLight,Purples,PurplesLight,Reds,RedsLight" Select="default,BuGn,BuPn,GnBu,OrRd,PuBu,PuBUGn,PuRd,RdPu,YlGn,YlGnBu,YlOrBr,YlOrRd,Blues,BluesLight,Greens,GreensLight,Oranges,OrangesLight,Purples,PurplesLight,Reds,RedsLight" Width="" Expression="" />
   
